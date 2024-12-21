@@ -1,0 +1,10 @@
+[package]
+name = "decloneify-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+hyper = { version = "1.5.2", features = ["full"] }
+tokio = { version = "1.42.0", features = ["full"] }
+tower = "0.5.2"
